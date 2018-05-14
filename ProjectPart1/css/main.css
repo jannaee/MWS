@@ -1,23 +1,10 @@
-/*
-
-Your styles go here!
-
-Hint! You'll probably want to start by styling:
-  * <body>
-  * <article>
-  * <h1>
-  * <img>
-
-I've left some boilerplate below for you.
-
-*/
-
 body {
-
+     width: 50em;
+     margin: 0 auto;
 }
 
 article {
-
+    /*max-width: 80%;*/
 }
 
 h1 {
@@ -25,7 +12,25 @@ h1 {
 }
 
 img {
-max-width: 100%;
+    max-width: 100%;
+}
 
 
+/*.twitter{*/
+/*    background-image: url("../images_src/digg.svg");    */
+/*}*/
+
+/*.digg{*/
+    
+/*}*/
+
+/*.facebook{*/
+    
+/*}*/
+
+/*.google{*/
+    
+/*}*/
+img:last-of-type {
+    background-color: pink;
 }
